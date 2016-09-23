@@ -1,0 +1,243 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #777777;
+  background-image: url("../images/seigaiha.png");
+  font-family: 'Georgia', 'Times', 'Times New Roman', serif;
+  
+}
+
+header {
+  border-bottom: 2px solid #cccccc;
+  padding-left: 100px;
+  margin: 0;
+  width: 92%;
+  float: left;
+  background-color: #ffffff;
+}
+
+h1, h2 {
+  font-family: 'Georgia', 'Times', 'Times New Roman', serif;
+  color: #4aaaa5;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 1.75em;
+  background-color: #4aaaa5;
+  padding: 5px;
+  display: inline-block;
+  padding: 20px;
+  margin-bottom: 0;
+  }
+
+p {
+  font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+  font-size: .90em;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+.mainHeading, .options {
+  float: left;
+}
+
+.altHeading {
+  border-bottom: 2px solid #cccccc;
+  margin-bottom: 20px;
+  padding: 10px 0;
+}
+
+.mainAreaHeading1 {
+  font-size: 1.5em;
+  padding: 10px 0 5px 0;
+  font-weight: bold;
+}
+
+.connectText {
+  font-size: 1.1em;
+  padding: 14px 0 6px 0;
+  font-weight: bold;
+  text-align: center;
+}
+
+.options {
+  padding: 26px 0 0 500px;
+  height: 100%;
+  font-size: .85em;
+  font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+}
+
+.container {
+  width: 960px;
+  padding-left: 100px;
+  
+}
+
+.mainArea, .connectMenu {
+  float: left;
+  margin-top: 20px;
+}
+
+.mainArea {
+  width: 650px;
+  padding: 0 20px 20px 20px;
+  margin: 20px 0 100px 0;
+  line-height: 150%;
+  background-color: #ffffff;
+  border: 2px solid #dddddd;
+  text-align: justify;
+}
+
+.connectMenu {
+  width: 270px;
+  margin-left: 20px;
+  padding: 5px 10px 5px 10px;
+  background-color: #ffffff;
+  border: 2px solid #dddddd;
+
+}
+
+.myLinks {
+  width: 50px;
+  height: 50px;
+  padding: 0 15px 10px 15px;
+}
+
+#me {
+  height: 200px;
+  padding: 0 20px 10px 10px;
+  border-radius: 0%;
+  float: left;
+}
+
+#contactArea {
+  background:#F9F9F9;
+  padding:25px;
+  margin: 0;
+}
+
+fieldset {
+  border: medium none;
+  margin: 0 0 10px 0;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contactArea input[type="text"], #contactArea input[type="email"], #contactArea textarea {
+  width:96%;
+  margin:0 0 5px;
+  padding:10px;
+}
+
+#contactArea textarea {
+  height:100px;
+  max-width:100%;
+}
+
+#contactArea button[type="submit"] {
+  width:12%;
+  background:teal;
+  color: white;
+  margin:0 0 5px;
+  padding:10px;
+  font-size:15px;
+}
+
+ul #mainPictures {
+ float: left;
+  margin: 0;
+}
+
+#mainPictures {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#mainPictures li {
+  float: left;
+  width: 40%;
+  margin: 2%;
+}
+
+.hangman {
+  top: 310px;
+  width: 88px;
+  height: 30px;
+  padding: 5px 0 0 0;
+  position: absolute;
+  background-color: #4aaaa5;
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.rpg {
+  top: 310px;
+  width: 88px;
+  height: 30px;
+  padding: 5px 0 0 0;
+  position: absolute;
+  background-color: #4aaaa5;
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.trivia {
+  top: 610px;
+  width: 88px;
+  height: 30px;
+  padding: 5px 0 0 0;
+  position: absolute;
+  background-color: #4aaaa5;
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.rutgers {
+  top: 610px;
+  width: 88px;
+  height: 30px;
+  padding: 5px 0 0 0;
+  position: absolute;
+  background-color: #4aaaa5;
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.rock {
+  top: 850px;
+  width: 88px;
+  height: 30px;
+  padding: 5px 0 0 0;
+  position: absolute;
+  background-color: #4aaaa5;
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+footer {
+  color: white;
+  background-color: #666666;
+  height: 60px;
+  text-align: center;
+  border-top: 5px solid #4aaaa5;  
+  clear: both;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
